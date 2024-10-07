@@ -1,6 +1,6 @@
 class Conta{
   double saldo = 1000;
-  double _saque = 200;
+  double _saque = 0;
 
   double get saque{
     if (_saque > saldo) {
